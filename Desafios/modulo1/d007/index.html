@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo uma imagem completa? Experimente ampliar e diminuir o tamanho da janela para conferir.</p>
+    <picture>
+        <source media="(max-width:550px )" srcset="imagens/200px.jpg" type="image/png">
+        <source media="(max-width:950px )" srcset="imagens/700px.jpg" type="image/png">
+        <img src="imagens/1000px.jpg" alt="Arvore na paisagem">
+    </picture>
+    
+</body>
+</html>

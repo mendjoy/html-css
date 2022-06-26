@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        article{
+            background-color: beige;
+        }
+        article >aside{
+            background-color: rgb(141, 130, 130);
+        }
+        nav{
+            background-color: rgb(97, 85, 85);
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.404);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav >a:hover {
+            text-decoration: underline;
+
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.404) ;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer >p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link </a>
+            <a href="#">Link</a>
+            <a href="#">Link </a>
+            <a href="#">Link </a>
+            <a href="#">Link </a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil adipisci quibusdam assumenda! Debitis vel fuga a aliquid rem sit provident, error quaerat, natus rerum sapiente, odit nisi facere quam. Iure?</p>
+                <aside>Artigo desenvolvido por ...</aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+
+    </footer>
+    
+</body>
+</html>

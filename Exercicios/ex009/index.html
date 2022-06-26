@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>Para criar listas ordenadas (Possuem ordem/numeração) é utilizada a tag &lt;ol&gt;&lt;/ol&gt;, cada item dessa lista pode ser colocado dentro da tag &lt;li&gt; (&lt;/li&gt; opcional). Dentro da tag &lt;ol&gt;&lt;/ol&gt; pode ser utilizada o parâmetro "type" que possui 5 opções Números, letras maiúsculas, miniscúlas, algarismos romanos minúsculos e maiscúlos. Para escolher o número inicial das númerações é utilizado o parâmetro "start".</p>
+    <h2>Listas Não ordenadas</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Tomate</li>
+        <li>Macarrão</li>
+        <li>Queijo</li>
+    </ul>
+    <p>Para criar listas  não ordenadas (Não possuem numeração) é utilizada a tag &lt;ul&gt;&lt;/ul&gt;.</p>
+    <h2>Juntando Listas Ordenadas</h2>
+    <h3>Minhas Linguagens Favoritas</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Juntando listas Ordenadas e não ordenadas</h2>
+    <h3>Meus jogos Favoritos</h3>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <ul type="disc">
+                <li>Mario Bros 3</li>
+                <li>Mario Losta Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNE</li>
+        <ul type="disc">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    <p>Para criar uma lista de definição é utilizada a tag &lt;dl&gt;&lt;/dl&gt;. Esse tipo de lista serve para inserir um termo e a definição dele, para inserir o termo é utilizado a tag  &lt;dt&gt;&lt;/dt&gt; e para a descrição do termo é utilizado a tag  &lt;dd&gt;&lt;/dd&gt;.</p>
+</body>
+</html>
